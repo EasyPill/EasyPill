@@ -1,0 +1,3 @@
+rootProject.name = 'EasyPill'
+
+include ':app'
