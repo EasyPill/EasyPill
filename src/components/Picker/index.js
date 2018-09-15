@@ -7,7 +7,7 @@ export default class Picker extends Component {
     return (
       <PickerRN
         selectedValue={pickedValue}
-        style={{ height: 100, width: 300 }}
+        style={{ height: 300, width: 300 }}
         onValueChange={(swissmedicId, itemIndex) => {
           // const swissmedicId = itemValue.length > 0 && itemValue[0];
           this.props.onConfirm(swissmedicId);
