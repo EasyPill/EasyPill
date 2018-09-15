@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+import SplashScreen from 'react-native-splash-screen';
 
 import RootStack from './src/navigation';
 

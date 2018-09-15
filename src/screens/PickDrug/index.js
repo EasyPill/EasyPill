@@ -1,7 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { RkButton } from 'react-native-ui-kitten';
 
 import Picker from '../../components/Picker';
+
+import { getLeaflet } from '../../api';
 
 const PickDrug = props => {
   const { store, reducers } = props.screenProps;
@@ -10,6 +13,11 @@ const PickDrug = props => {
     label: drug.title,
     value: drug.swissmedicIds[0] || 0,
   }));
+
+  const apiCall = () => {
+    getLeaflet(store.pickedDrug);
+  };
+
   return (
     <View style={styles.container}>
       <Picker
@@ -17,6 +25,7 @@ const PickDrug = props => {
         onConfirm={reducers.setPickedDrug}
         pickedValue={store.pickedDrug}
       />
+      <RkButton onPress={apiCall}>Search Dosis</RkButton>
     </View>
   );
 };
