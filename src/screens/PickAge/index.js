@@ -20,14 +20,15 @@ class PickAge extends Component {
   chooseAge = selection => {
     const { store, reducers } = this.props.screenProps;
 
-    const dose = store.leaflet.dosage[selection];
+    // const dose = store.leaflet.dosage[selection];
 
     Promise.resolve()
       .then(() => this.setState({ isLoading: true }))
       .then(() =>
         this.setState({ selection: selection === 'adults' ? 'adult' : 'child' })
       )
-      .then(selection => reducers.setDose(dose))
+      // .then(selection => reducers.setDose(dose))
+      .then(selection => reducers.setDose('3,2,3'))
       .then(() => delay(2000))
       .then(() => this.props.navigation.navigate('Dosage'))
       .catch(error => console.log({ error }));

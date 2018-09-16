@@ -18,34 +18,34 @@ const Dosage = props => {
         source={require('../../assets/images/background.jpg')}
         style={styles.backgroundImage}
       />
-      <Text style={styles.text}>{'Your dosage'}</Text>
+      <Text style={styles.text}>{'Your daily dose'}</Text>
       <View style={{ flexDirection: 'column' }}>
         <View style={styles.row}>
           <TouchableOpacity
             style={styles.headContainer}
             onPress={() => chooseAge('adult')}
           >
-            <Text style={styles.head}>☀️</Text>
+            <Text style={styles.head}>☀️ 🕖</Text>
           </TouchableOpacity>
-          <Text style={styles.dose}>3</Text>
+          <Text style={styles.dose}>1 💊</Text>
+        </View>
+        <View style={styles.rowBorder}>
+          <TouchableOpacity
+            style={styles.headContainer}
+            onPress={() => chooseAge('child')}
+          >
+            <Text style={styles.head}>🍜 🕐</Text>
+          </TouchableOpacity>
+          <Text style={styles.dose}>1 💊</Text>
         </View>
         <View style={styles.row}>
           <TouchableOpacity
             style={styles.headContainer}
             onPress={() => chooseAge('child')}
           >
-            <Text style={styles.head}>🍜</Text>
+            <Text style={styles.head}>🌘 🕗</Text>
           </TouchableOpacity>
-          <Text style={styles.dose}>2</Text>
-        </View>
-        <View style={styles.row}>
-          <TouchableOpacity
-            style={styles.headContainer}
-            onPress={() => chooseAge('child')}
-          >
-            <Text style={styles.head}>🌘</Text>
-          </TouchableOpacity>
-          <Text style={styles.dose}>3</Text>
+          <Text style={styles.dose}>1 💊</Text>
         </View>
       </View>
     </View>
@@ -70,6 +70,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  rowBorder: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 2,
+    borderWidth: 5,
+    borderColor: '#fff',
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+  },
   text: {
     fontSize: 28,
     color: '#fff',
@@ -79,11 +88,11 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   head: {
-    fontSize: 100,
+    fontSize: 70,
   },
   dose: {
     color: '#fff',
-    fontSize: 60,
+    fontSize: 50,
     fontWeight: 'bold',
     marginLeft: 30,
   },
