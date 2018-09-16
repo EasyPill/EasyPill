@@ -12,6 +12,7 @@ export default class Picker extends Component {
           // const swissmedicId = itemValue.length > 0 && itemValue[0];
           this.props.onConfirm(swissmedicId);
         }}
+        itemStyle={{ color: '#fff' }}
       >
         {data.map((drug, idx) => (
           <PickerRN.Item key={idx} label={drug.label} value={drug.value} />

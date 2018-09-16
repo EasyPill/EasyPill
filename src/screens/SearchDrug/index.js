@@ -22,16 +22,13 @@ class SearchDrug extends React.Component {
     return (
       <View style={styles.container}>
         <Image
-          source={require('../../assets/images/easyPill_Start.jpg')}
+          source={require('../../assets/images/background.jpg')}
           style={styles.backgroundImage}
         />
         <Search
           onButtonPress={this.runDrugsQuery}
           onTypeCharacter={name => reducers.setDrugName(name)}
         />
-        <Text style={{ marginBottom: 30 }}>{`Drug name: ${
-          store.drugName
-        }`}</Text>
       </View>
     );
   }
@@ -48,7 +45,6 @@ const styles = StyleSheet.create({
   },
   backgroundImage: {
     ...StyleSheet.absoluteFillObject,
-    zIndex: -1,
     resizeMode: 'stretch', // or 'stretch'
   },
 });

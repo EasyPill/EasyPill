@@ -19,7 +19,6 @@ export const getDrugs = name => {
     })
       .then(response => response.json())
       .then(responseJson => {
-        // console.log({ responseJsonDrugs: responseJson });
         resolve(responseJson);
         return responseJson;
       })
@@ -30,17 +29,20 @@ export const getDrugs = name => {
   });
 };
 
-export const getLeaflet = id => {
-  fetch(getPatientInformationLeafletUrl(id))
-    .then(response => response.json())
-    .then(responseJson => {
-      console.log({ responseJson });
-      return responseJson.movies;
-    })
-    .catch(error => {
-      console.error(error);
-    });
-};
+export const getLeaflet = id =>
+  new Promise((resolve, reject) => {
+    fetch(getPatientInformationLeafletUrl(id))
+      .then(response => response.json())
+      .then(responseJson => {
+        console.log({ responseJson });
+        resolve(responseJson);
+        return responseJson;
+      })
+      .catch(error => {
+        reject(error);
+        console.error(error);
+      });
+  });
 
 // TODO: Replace with API call here!
 // export const getDrugs = () => Ibuprofen;

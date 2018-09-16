@@ -1,0 +1,4 @@
+#Sun Sep 16 00:39:25 CEST 2018
+base.0=/Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

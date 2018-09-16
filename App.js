@@ -32,16 +32,27 @@ export default class App extends React.Component {
      * SwissmedicId of the picked drug from Picker after initial API call
      */
     pickedDrug: 0,
+    /**
+     * Leaflet information about the requested drug
+     */
+    leaflet: {},
+    /**
+     * Final dose to show
+     */
+    dose: '',
   };
 
   getReducers = () => ({
     setDrugName: drugName => this.setState({ drugName }),
     setDrugs: drugs => this.setState({ drugs }),
     setPickedDrug: pickedDrug => this.setState({ pickedDrug }),
+    setLeaflet: leaflet => this.setState({ leaflet }),
+    setDose: dose => this.setState({ dose }),
   });
 
   componentWillMount() {
     initTheme();
+    console.disableYellowBox = true;
   }
 
   render() {

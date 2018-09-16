@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/node_modules/react-native/Libraries/Text/Text/RCTTextShadowView.m \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/node_modules/react-native/Libraries/Text/Text/RCTTextShadowView.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/node_modules/react-native/Libraries/Text/Text/NSTextStorage+FontScaling.h \
+  /Users/andru/dev/hackathons/15_201809_HackZurich2018/EasyPill/node_modules/react-native/Libraries/Text/Text/RCTTextView.h
