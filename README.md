@@ -2,7 +2,7 @@
 
 An easy-to-understand mobile app which breaks down complicated patient information leaflets for you.
 
-Done as part of [HackZurich 2018](https://digitalfestival.ch/en/HACK/). Our [official submission is on DevPost](https://devpost.com/software/easypill).
+Done as part of [HackZurich 2018](https://digitalfestival.ch/en/HACK/). This project made it into the final of 25 projects out of 160 total submissions. Our [official submission is on DevPost](https://devpost.com/software/easypill).
 
 We used unstructured patient information leaflet data provided by the [AXA SwissMedic API](https://health.axa.ch/hack/).
 
@@ -10,7 +10,7 @@ We used unstructured patient information leaflet data provided by the [AXA Swiss
 
 ## Run
 
-This project was bootstrapped with [creat-react-native-app](https://github.com/react-community/create-react-native-app).
+This project was bootstrapped with [create-react-native-app](https://github.com/react-community/create-react-native-app).
 
 Start the development server in one terminal window:
 
