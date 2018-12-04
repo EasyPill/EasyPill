@@ -1,16 +1,18 @@
-# EasyPill Mobile App
+# EasyPill 💊 App
 
-An easy-to-understand mobile app which breaks down complicated patient information leaflets for you.
+Complicated patient information leaflets from medication often are very hard to understand! 🤯 **EasyPill** breaks down the information for you and displays you what's important in a simple manner. 😍
 
-Done as part of [HackZurich 2018](https://digitalfestival.ch/en/HACK/). This project made it into the final of 25 projects out of 160 total submissions. Our [official submission is on DevPost](https://devpost.com/software/easypill).
+<div align="center">
+  <img src="docs/demo.gif" width="300px" alt="easypill demo">
+</div>
 
-We used unstructured patient information leaflet data provided by the [AXA SwissMedic API](https://health.axa.ch/hack/).
+## How to use the app? 👆
 
-![App Demo](./docs/demo.gif)
+1. Search for any drug which is available in Switzerland🇨🇭.
+2. Tell **EasyPill** some more information about you, e.g. your age 👵🏽 or whether you are pregnant🤰.
+3. **EasyPill** displays you how to intake your medicine 🥄 in a simple way really everyone can understand.
 
-## Run
-
-This project was bootstrapped with [create-react-native-app](https://github.com/react-community/create-react-native-app).
+## Run 🏃‍♀️
 
 Start the development server in one terminal window:
 
@@ -24,8 +26,16 @@ And build the app with:
 react-native run-ios
 ```
 
+This project was bootstrapped with [create-react-native-app](https://github.com/react-community/create-react-native-app).
 
-## Team
+## Technologies used 🖥
+
+* We used unstructured patient information leaflet data provided by the [AXA SwissMedic API](https://health.axa.ch/hack/). We parsed the XML, structured, sorted and extracted relevant information.
+* We used [React Native](https://facebook.github.io/react-native/) as the framework to build the mobile app.
+
+## Team 🤼‍♂️
+
+Built as part of [HackZurich 2018](https://digitalfestival.ch/en/HACK/). This project made it into the final of 25 projects out of 160 total submissions. Our [official submission is on DevPost](https://devpost.com/software/easypill).
 
 * [Elia](https://github.com/eliabieri)
 * [André](https://github.com/Andruschenko)
